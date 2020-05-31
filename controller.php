@@ -37,13 +37,5 @@ if (isset($_POST['unProfil'])) {
 	}
 }
 
-if (isset($_POST['lesActivites'])) {
-	
-	$insertActivit = new Activite();
-	try {
-		$insertActivite->insertActivite($conn, $lesActi);
-	} catch (Exception $e) {
-		var_dump($e);
-	}
 }
 ?>
