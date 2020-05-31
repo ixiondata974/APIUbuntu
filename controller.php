@@ -45,6 +45,5 @@ if (isset($_POST['lesActivites'])) {
 	} catch (Exception $e) {
 		var_dump($e);
 	}
-
 }
 ?>
